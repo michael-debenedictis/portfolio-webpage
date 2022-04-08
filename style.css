@@ -12,8 +12,10 @@ header {
 
 body {
   background-color: #fefae0;
-  background-image: url("/image/background.jpg");
+  background-image: url("image/background.jpg");
 }
+
+<!-- image and image container rules -->
 
 #main-image {
   border: solid #d4a373;
@@ -25,15 +27,6 @@ body {
 
 .image {
   text-align: center;
-}
-
-article {
-  margin: 15px;
-  margin-left: 100px;
-  margin-right: 100px;
-  background-color: #fefae0;
-  padding: 25px;
-  border: solid #d4a373;
 }
 
 .logos {
@@ -51,10 +44,41 @@ article {
   width: 50px;
 }
 
+<!-- -->
+
+article {
+  margin: 15px;
+  margin-left: 100px;
+  margin-right: 100px;
+  background-color: #fefae0;
+  padding: 25px;
+  border: solid #d4a373;
+}
+
 hr {
   height: 3px;
   background-color: black;
 }
+
+<!-- link pseudo-classes -->
+
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  color: brown;
+}
+
+a:active {
+  color: red;
+}
+
+<!-- -->
 
 footer {
   background-color: #ccd5ae;
