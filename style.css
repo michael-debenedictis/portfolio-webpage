@@ -1,3 +1,7 @@
+/* Set ALL HTML elements with border-box sizing */* {
+  box-sizing: border-box;
+}
+
 header {
   background-color: #d4a373;
   text-align: center;
