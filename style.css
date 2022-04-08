@@ -1,0 +1,78 @@
+header {
+  background-color: #d4a373;
+  text-align: center;
+  border: solid;
+  margin: 15px;
+  font-family: 'Trebuchet MS';
+}
+
+body {
+  background-color: #fefae0;
+  background-image: url("/image/background.jpg");
+}
+
+#main-image {
+  border: solid #d4a373;
+  text-align: center;
+  border-radius: 25px;
+  width: 250px;
+  height: auto;
+}
+
+.image {
+  text-align: center;
+}
+
+article {
+  margin: 15px;
+  margin-left: 100px;
+  margin-right: 100px;
+  background-color: #fefae0;
+  padding: 25px;
+  border: solid #d4a373;
+}
+
+.logos {
+  width: 20px;
+  height: auto;
+}
+
+.one-third {
+  float: left;
+  margin-right: 50px;
+  margin-bottom: 25px;
+}
+
+.languages {
+  width: 50px;
+}
+
+<!-- link pseudo-classes -->
+
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  color: brown;
+}
+
+a:active {
+  color: red;
+}
+
+<!-- -->
+
+hr {
+  height: 3px;
+  background-color: black;
+}
+
+footer {
+  background-color: #ccd5ae;
+  text-align: center;
+}
