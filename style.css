@@ -32,6 +32,8 @@ article {
   border: solid #d4a373;
 }
 
+/* icons and divs for icons */
+
 .logos {
   width: 20px;
   height: auto;
@@ -47,7 +49,9 @@ article {
   width: 50px;
 }
 
-<!-- link pseudo-classes -->
+/* ----- */
+
+/* link pseudo-classes */
 
 a:link {
   color: blue;
@@ -65,7 +69,7 @@ a:active {
   color: red;
 }
 
-<!-- -->
+/* ----- */
 
 hr {
   height: 3px;
@@ -75,4 +79,5 @@ hr {
 footer {
   background-color: #ccd5ae;
   text-align: center;
+  font-size: 15px;
 }
